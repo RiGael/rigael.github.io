@@ -97,3 +97,12 @@ footer {
 .project:hover .description {
     visibility: visible;
 }
+
+/* Visitor map - might remove in future as sending data to third party*/
+.visitormap {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+}
