@@ -1,20 +1,37 @@
 body {
-    background: #333;
-    color: white;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: white;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 header {
-    background: #444;
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 10px;
     text-align: center;
 }
 
 nav {
-    background: #555;
+    background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: space-around;
     padding: 10px 0;
@@ -34,7 +51,7 @@ main {
 }
 
 footer {
-    background: #444;
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     text-align: center;
     padding: 10px;
