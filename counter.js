@@ -4,5 +4,5 @@ if (!count) {
 }
 count++;
 localStorage.setItem('count', count);
-
-document.getElementById("count").innerText = "You've visited my website: " + count;
+1
+document.getElementById("count").innerText = "You've visited my website: " + count "times!";
