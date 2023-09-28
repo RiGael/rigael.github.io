@@ -89,6 +89,9 @@ footer {
     transform: translate(-50%, -50%);
     visibility: hidden;
     transition: visibility 0.2s;
+    background-color: rgba(0, 0, 0, 0.5); /* Add this line */
+    padding: 10px; /* Add some padding */
+    border-radius: 5px; /* Optional: round the corners */
 }
 
 .project:hover .description {
