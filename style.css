@@ -59,3 +59,14 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.grid img {
+  width: 100%;
+  height: auto;
+}
